@@ -19,6 +19,6 @@ class EBook(Book):
 
 
 mybook = EBook('The Odyssey', 'Homer', 2)
-mypaperbook = PaperBoodk('The Odyssey', 'Homer', 500)
+mypaperbook = PaperBook('The Odyssey', 'Homer', 500)
 print(mybook.size)
 print(mypaperbook.numPages)
